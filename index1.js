@@ -7,6 +7,7 @@ const port = 3000;
 
 app.get("/", (req, res) =>{
     let name = superheroes.random();
+    //here, we send a formatted html content to the client-side
     res.send(`<h1>Behold, I am ${name} and I'm gonna kick yo butt</h1>`);
 })
 
