@@ -2,6 +2,7 @@
 import superheroes from "superheroes";
 import express from "express";
 
+// express application instance
 const app = express();
 const port = 3000;
 
