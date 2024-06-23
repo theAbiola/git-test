@@ -12,6 +12,7 @@ app.get("/", (req, res) =>{
     res.send(`<h1>Behold, I am ${name} and I'm gonna kick yo butt</h1>`);
 })
 
+// application port instance
 app.listen(port, () => {
     console.log(`listening on port ${port}.`);
 })
