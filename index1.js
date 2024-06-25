@@ -4,6 +4,7 @@ import express from "express";
 
 // express application instance
 const app = express();
+//application port definition
 const port = 3000;
 
 app.get("/", (req, res) =>{
